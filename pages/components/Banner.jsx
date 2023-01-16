@@ -3,6 +3,7 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { en, fr } from "../public/translation";
+import React from 'react'
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);

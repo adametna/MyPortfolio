@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useRouter } from "next/router";
 import { en, fr } from "../public/translation";
+import React from 'react'
 
 export const Skills = () => {
   const responsive = {

@@ -3,6 +3,8 @@ import "react-multi-carousel/lib/styles.css";
 import "animate.css";
 import { en, fr } from "../public/translation";
 import { useRouter } from "next/router";
+import React from 'react'
+
 
 export const Projects = () => {
   const ProjectItem = ({ title, description, image }) => {

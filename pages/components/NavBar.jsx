@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useRouter } from "next/router";
 import { en, fr } from "../public/translation";
+import React from 'react'
+
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
